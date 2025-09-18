@@ -27,7 +27,7 @@ By following along with this project, anyone can **strengthen their foundation i
 - Learn how to show or hide elements depending on certain conditions.  
 - Example: Display a login form if the user is not logged in, otherwise show a welcome message.  
 
-### 🎛 Event Handling  
+### Event Handling  
 - Handle user interactions like button clicks, form submissions, and input changes.  
 - Practice writing event functions that update state and trigger re-renders.  
 
@@ -42,7 +42,7 @@ By following along with this project, anyone can **strengthen their foundation i
 ### Destructuring  
 - Write cleaner code by **destructuring props and state values** directly in the function parameters or inside the component body.  
 
-### Suspense & Lazy Loading  
+### Suspense  
 - Explore how to **split code** and load components only when needed.  
 - Use `React.Suspense` to show a fallback loader until the component or data is ready.  
 
@@ -72,6 +72,12 @@ This project is meant for:
 - **Vite** – Fast build tool and development server  
 - **JavaScript (ES6+)** – Using modern JS features like arrow functions, destructuring, modules  
 - **CSS / Tailwind (optional)** – For styling examples  
+
+---
+
+## Live Link
+
+[https://explore-react-2.netlify.app/](https://explore-react-2.netlify.app/)
 
 ---
 
