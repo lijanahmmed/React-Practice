@@ -49,8 +49,6 @@ const App = () => {
   //     .then((data) => setUsers(data));
   // }, [count]);
 
-  // console.log(users);
-
   return (
     <>
       {/* Dynamic data */}

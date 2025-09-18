@@ -1,5 +1,4 @@
 const User = ({ user }) => {
-  console.log(user);
 
   return (
     <div class="max-w-sm rounded overflow-hidden shadow-lg">
