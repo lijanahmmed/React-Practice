@@ -11,6 +11,10 @@ const App = () => {
     setCount(count + 1);
   };
 
+  const handleDelete = () => {
+    setCount(0)
+  }
+
   // const person = {
   //   name: "Jakaria",
   //   age: 23,
@@ -74,7 +78,7 @@ const App = () => {
         >
           Increase
         </button>
-        <button className="py-2.5 px-6 rounded-lg text-sm font-medium text-white bg-teal-600">
+        <button onClick={handleDelete} className="py-2.5 px-6 rounded-lg text-sm font-medium text-white bg-teal-600">
           Delete
         </button>
       </div>
