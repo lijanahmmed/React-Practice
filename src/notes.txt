@@ -1,0 +1,1 @@
+API: https://beeceptor.com/docs/jsonplaceholder-alternative
