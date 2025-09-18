@@ -15,16 +15,16 @@ const App = () => {
     setCount(0)
   }
 
-  // const person = {
-  //   name: "Jakaria",
-  //   age: 23,
-  //   team: "L1",
-  // };
+  const person = {
+    name: "Lijan",
+    age: 23,
+    team: "L1",
+  };
 
-  // const user = {
-  //   name: "Milton",
-  //   role: "manager",
-  // };
+  const employee = {
+    name: "Milton",
+    role: "manager",
+  };
 
   // Promise using .then chaining
   const userPromise = fetch(apiUrl)
@@ -54,9 +54,9 @@ const App = () => {
   return (
     <>
       {/* Dynamic data */}
-      {/* <h2>
+      <h2>
         {person.name} {person.age} {person.team}
-      </h2> */}
+      </h2>
       <div className="flex items-center w-[120px]">
         <button
           type="button"
@@ -84,13 +84,13 @@ const App = () => {
       </div>
 
       {/* conditional rendering */}
-      {/* <div className="my-2">
-        {user.role == "manager" ? (
+      <div className="my-2">
+        {employee.role == "manager" ? (
           <h2>This is manager dashboard</h2>
         ) : (
           <h2>This is an instructor dashboard</h2>
         )}
-      </div> */}
+      </div>
 
       {/* Suspense and promise */}
       <Suspense fallback={<Spinner></Spinner>}>
